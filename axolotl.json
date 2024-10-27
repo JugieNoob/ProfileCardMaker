@@ -1,0 +1,37 @@
+{
+
+    "w": 1920,
+    "h": 1080,
+    "bgcolor": [9, 155, 221],
+
+    "elements": {
+
+        "banner": {
+            "x": 0,
+            "y": 20,
+            "color": [255, 255, 255],
+            "bannerheight": 360 
+        },
+        "text": {
+            "x": 200,
+            "y": 140,
+            "color": [9, 155, 221],
+            "font": "Corbel",
+            "size": 100,
+            "text": "AXOLOTL"
+        },
+        "image": {
+            "x": 200,
+            "y": 425,
+            "imagedir": "axolotl.png"
+        },
+        "bulletpoints": {
+            "x": 1250,
+            "y": 375,
+            "color": [255, 255, 255],
+            "font": "Corbel",
+            "size": 35,
+            "text": ["habitat: freshwater of Lake Xochimilco\nand Lake Chalco in the Valley of\nMexico", "lifespan: 5-6 years in the wild, 12\n in captivity", "food: mollusks, worms, insects, other\narthropods, and small fish in the wild", "The feature of the axolotl that attracts most\nattention is its healing ability: the axolotl does\nnot heal by scarring and is capable of the\nregeneration of entire lost appendages in\na period of months, and, in certain cases, more\nvital structures, such as tail, limb, central\nnervous system, and tissues of the eye\nand heart. They can even restore less vital\nparts of their brains"]
+        }
+    }
+}
