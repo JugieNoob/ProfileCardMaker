@@ -69,5 +69,10 @@ def loadProject():
 
 loadProject()
 
-image.save("image.png")
+image.save("temp/temp.png")
+
+def exportImage():
+    image.save("output.png")
+
+
 print("new image")
