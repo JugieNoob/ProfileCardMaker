@@ -32,8 +32,8 @@ def addElement(type, x = 0, y = 0, color = [0, 0, 0], textproperties = ["Your Te
                 draw.text((x, y + ((50 + textproperties[2] + ((textproperties[0][i - 1].count("\n") + 1) * 25)) * i)), text="• " + textproperties[0][i], fill=(color[0], color[1], color[2]), font=font)
     pass
 
-def loadProject():
-    with open("axolotl.json") as file:
+def loadProject(projdir):
+    with open(f"temp/{projdir}/main.json") as file:
         
         global image
         global w
@@ -67,9 +67,8 @@ def loadProject():
             addElement(i, element["x"], element["y"], element["color"], [element["text"], element["font"], element["size"]], element["imagedir"], element["bannerheight"])
 
 
-loadProject()
 
-image.save("temp/temp.png")
+#image.save("temp/temp.png")
 
 def exportImage():
     image.save("output.png")

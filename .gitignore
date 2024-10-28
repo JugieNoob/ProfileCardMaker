@@ -1,1 +1,3 @@
 /testassets
+/__pycache__
+/handlers/__pycache__
